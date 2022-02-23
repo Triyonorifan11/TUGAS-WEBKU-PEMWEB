@@ -1,0 +1,189 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+/* Style My web Vol 2 */
+
+body{
+    padding: 30px;
+    background-color: rgb(220, 238, 255);
+}
+
+.bodydiv div{
+    background-color: #fff5f5;
+    text-align: center;
+    height: 400px;
+    position: relative;
+    color: #000000;
+}
+
+.container{
+    padding: 50px 30px;
+    border-radius: 20px;
+    background-image: url(img/Bg.png);
+}
+
+h1{
+    font-size: 53px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.container h1{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+.container img{
+    width: 180px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(53, 231, 255, 0.9);
+}
+
+.container p{
+    color: white;
+    position: relative;
+    font-size: 20px;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    transition: 10px;
+    margin-top: 30px;
+    right: 0px;
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+
+.box .judul{
+    text-align: center;
+    font-size: 55px;
+}
+
+.box h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+}
+
+.deksbio{
+    line-height: 1.33;
+    text-align: justify;
+}
+
+.tabel{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.tabel .titik2{
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
+/* Kotak Menu */
+.kotakmenu{
+    padding: 0px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.kotakmenu a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.kotak{
+    height: 200px;
+	width: 227.6px;
+	background-color: rgba(17, 70, 105, 1);
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+}
+
+.kotak1{
+    background-color: rgba(17, 70, 105, 1);
+    transition: 0.5s;
+}
+
+.kotak2{
+    background-color: rgba(66, 203, 219, 1.0);
+    transition: 0.5s;
+}
+
+.kotak3{
+    background-color: rgb(173, 3, 3);
+    transition: 0.5s;
+}
+
+.kotak4{
+    background-color: rgb(170, 61, 140);
+    transition: 0.5s;
+}
+
+.kotak5{
+    background-color: rgb(29, 29, 29);
+    transition: 0.5s;
+}
+
+.kotak6{
+    background-color: rgb(46, 228, 69);
+    transition: 0.5s;
+}
+
+/* hover kotak */
+.kotak1:hover{
+    background-color: rgba(17, 70, 105, 0.9);
+    transform: translateY(-20px);
+
+}
+
+.kotak2:hover{
+    background-color: rgba(66, 203, 219, 0.9);
+    transform: translateY(-20px);
+
+}
+
+.kotak3:hover{
+    background-color: rgba(173, 3, 3,0.9);
+    transform: translateY(-20px);
+
+}
+
+.kotak4:hover{
+    background-color: rgba(170, 61, 140, 0.9);
+    transform: translateY(-20px);
+
+}
+
+.kotak5:hover{
+    background-color: rgba(29, 29, 29, 0.9);
+    transform: translateY(-20px);
+
+}
+
+.kotak6:hover{
+    background-color: rgba(46, 228, 69, 0.9);
+    transform: translateY(-20px);
+    
+}
+
+.footer p{
+    font-size: 15px;
+    text-align: center;
+    padding: 90px  0 0 0;
+}
